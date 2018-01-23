@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*这种注释会编译*/
+//这种不编译
+/*变量的命名*/
+@maincolor:#e92322;
+@Name:wjs;
+a:hover {
+  color: @maincolor;
+}
+.@{Name}_box {
+  border-color: @maincolor;
+}
+//变量的使用
+//在字符串拼接的时候@{变量名}

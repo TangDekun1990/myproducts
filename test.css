@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*这种注释会编译*/
+/*变量的命名*/
+a:hover {
+  color: #e92322;
+}
+.wjs_box {
+  border-color: #e92322;
+}
